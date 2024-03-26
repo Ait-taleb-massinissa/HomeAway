@@ -1,0 +1,61 @@
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #007bff;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .PhoneInputCountry{
+    display: flex;
+  }
+  .PhoneInputCountry select{
+    border: none;
+    width: 1pc;
+    height: 2pc;
+    margin: 5;
+    
+  }
+.PhoneInputCountry img{
+    border: black ;
+    width: 40px;
+    margin: 5px;
+  }
+  .PhoneInput{
+    display: flex;
+  }
+  .bottomText{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    padding: 2px;
+    justify-content: center;
+  }
+  .bottomText a {
+    color: blueviolet;
+    padding-left: 5px;
+  }
+  .bottomText a:hover {
+    color: darkblue;
+    padding-left: 5px;
+    text-decoration: none;
+  }

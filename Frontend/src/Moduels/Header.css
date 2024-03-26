@@ -1,0 +1,119 @@
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a, .nav-links button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover, .nav-links button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .button-secondary:hover {
+    background-color: #495057;
+  }
+  
+
+
+.userPlace {
+    margin-left:10px ;
+    display: flex;
+    align-items: center; 
+    color: #333; 
+    cursor: pointer;
+    border: 1px solid #333; /* Add a thin border */
+    border-radius: 20px; /* Make the border rounded to create a circle */
+    padding: 5px 10px 5px 5px; /* Add some padding to ensure the border doesn't touch the icon */
+
+  }
+  
+  .userIcon {
+    height: 30px;
+    margin-right: 5px; 
+    padding-right: 5px;
+    border-right:1px solid #333 ;
+  }
+
+
+  .selectpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+  }
+  
+  .selectpage .account,
+  .selectpage .host {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .selectpage .account h3,
+  .selectpage .host h3 {
+    margin-top: 10px;
+  }
+  
+  .selectpage .account svg,
+  .selectpage .host svg {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .selectpage .account:hover,
+  .selectpage .host:hover {
+    transform: scale(1.1);
+  }
+  
